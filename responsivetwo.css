@@ -1,0 +1,246 @@
+.main-container {
+    border: 1px solid black;
+    width: 1200px;
+    height: 800px;
+    background-image: url(https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+* {
+    margin: opx;
+
+}
+
+@media screen and (max-width :1008px) {
+
+    .item-4>a {
+        display: none;
+    }
+
+}
+@media  screen and (max-width :600px) {
+.header{
+    padding:14px;
+}    
+}
+@media screen and (max-width :1000px) {
+.sub-container{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}    
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: sticky;
+    top: 0px;
+    border: 2px solid white;
+    justify-items: center;
+    width: 100%;
+    padding: 10px;
+    margin: 0px;
+    outline: 0px;
+
+}
+
+.head>img {
+    color: white;
+}
+
+.item>a {
+    text-decoration: none;
+    color: white;
+    /* background-color: lightblue; */
+    text-align: center;
+}
+
+.item {
+    width: 80%;
+    padding: 14px;
+    text-align: center;
+    font-size: 18px;
+    transition: 0.4s;
+}
+
+.item-4>a {
+    text-decoration: none;
+    width: 60px;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.item>a:hover {
+    color: steelblue;
+}
+
+.sub-container {
+    display: flex;
+    /* border: 2px solid red; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.sub-container>.par-1 {
+    color: white;
+    font-size: 20px;
+}
+
+.sub-container>.par-2 {
+    color: white;
+    font-size: 50px;
+}
+
+.downs {
+    width: 80%;
+    height: 100px;
+    /* border: 2px solid white; */
+    /* border-radius: 5px; */
+    padding: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.downs>form>select {
+    color: black;
+    padding: 20px;
+}
+
+.downs>form>input {
+    color: black;
+    padding: 20px;
+}
+
+.downs>select {
+    color: black;
+    padding: 20px;
+    border: none;
+}
+
+.icons {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: 60px;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+
+
+.names {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    width: 62%;
+    height: 50px;
+    justify-content: space-between;
+    justify-items: center;
+
+}
+
+.fimg {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    text-align: center;
+    border: 2px solid white;
+    background-color: white;
+    padding: 10px;
+    color: grey;
+}
+
+.apart {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    text-align: center;
+    border: 2px solid white;
+    background-color: white;
+    padding: 10px;
+    color: grey;
+}
+
+.img2,
+.img3,
+.img4 {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    text-align: center;
+    border: 2px solid white;
+    background-color: white;
+    padding: 10px;
+    color: grey;
+}
+
+.apart:hover {
+    background-color: black;
+    border-color: black;
+}
+
+.fimg:hover {
+    background-color: black;
+    border-color: black;
+}
+
+.img2:hover {
+    background-color: black;
+    border-color: black;
+}
+
+.img3:hover {
+    background-color: black;
+    border-color: black;
+}
+
+.img4:hover {
+    background-color: black;
+    border-color: black;
+}
+
+
+.house,
+.food,
+.car,
+.travel,
+.shopping {
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.search {
+    color: black;
+    background-color: lightsteelblue;
+    padding: 20px;
+    width: fit-content;
+    height: 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.bi {
+    background-color: white;
+    border-radius: 50%;
+    width: 70px;
+    height: 60px;
+    border: 2px solid black;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+}
